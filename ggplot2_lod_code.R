@@ -19,7 +19,3 @@ curve<- curve+theme_light()
 curve <- curve + theme(text = element_text(size = 20))
 curve<- curve +geom_vline(aes(xintercept=3.6), colour = "red")
 curve<-curve+ geom_text(aes(0,0.5,label='aesdf', hjust=0.5))
-
-
-
-
